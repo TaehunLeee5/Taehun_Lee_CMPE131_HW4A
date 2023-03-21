@@ -1,0 +1,13 @@
+5. Analyze two functions.
+Instructions:
+• Review the code below and answer the following two questions:
+1. Does the change inside increment_int_a change the variable a after the function call?
+2. Does the change inside increment_int_b change the variable b after the function call?
+3. If they differ answer why? if not why not?
+• Submit answers in a text file called q5.txt
+
+Answer:
+    1. No
+    2. Yes
+    3. For #1, the function that is passing the "someval" is passing by value 
+    whereas the increment_int_b function is passing by reference
