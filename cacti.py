@@ -5,6 +5,11 @@ def cacti_number(array2d):
 
     for i in range(rows):
         for j in range(columns):
+            if array2d[i][j] == 0:
+                empty = True
+
+                if 
+            """
             while i = 0:
                 if array2d[i][j+1]:
                     empty = False
@@ -21,7 +26,8 @@ def cacti_number(array2d):
                 empty = False
             if array2d[i-1][j-1] == 1:
                 empty = False
-        
+            """
+
             if empty:
                 counter += 1
 
